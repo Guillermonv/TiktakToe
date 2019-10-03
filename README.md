@@ -2,8 +2,8 @@
 Este es un ejemplo de 5 hs de trabajo haciendo un tateti en una aplicacion rest echa en python y 
 un cliente en spring boot basico que lo consume con rest template
 ## Endpoints
-[POST] env-/game/tiktaktoe/create/<GameId>/[Player} <br>
-[PUT]  env-/game/tiktaktoe/play/<GameId>/{row}/{col} <br>
+[POST] env-/game/tiktaktoe/create/{GameId}/{Player} <br>
+[PUT]  env-/game/tiktaktoe/play/{GameId}/{row}/{col} <br>
 [GET]  env-/game/tiktaktoe/history <br>
 [DEL]  env-/game/tiktaktoe/{GameId} <br>
 
