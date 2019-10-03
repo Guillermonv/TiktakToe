@@ -1,13 +1,13 @@
-#TIK TAK TOE DOCUMENT <br>
+# TIK TAK TOE DOCUMENT <br>
 Este es un ejemplo de 5 hs de trabajo haciendo un tateti en una aplicacion rest echa en python y 
 un cliente en spring boot basico que lo consume con rest template
-# Endpoints
-[POST] env-/game/tiktaktoe/create/<GameId>/<Player>
-[PUT]  env-/game/tiktaktoe/play/<GameId>/<row>/<col>
-[GET]  env-/game/tiktaktoe/history
-[DEL]  env-/game/tiktaktoe/<GameId>
+## Endpoints
+[POST] env-/game/tiktaktoe/create/<GameId>/<Player> <br>
+[PUT]  env-/game/tiktaktoe/play/<GameId>/<row>/<col> <br>
+[GET]  env-/game/tiktaktoe/history <br>
+[DEL]  env-/game/tiktaktoe/<GameId> <br>
 
-#Features
+## Features
 - [x] Crea diferentes juegos y guarda el tiempo
 - [x] Habilidad para seleccionar un casillero
 - [x] Valida si el lugar selecionado esta ocupado o no
@@ -21,7 +21,7 @@ un cliente en spring boot basico que lo consume con rest template
 - [ ] Unit Test
 - [ ] Consumir el serivico mediandte una app en spring boot
  
-#Tecnologias
+## Tecnologias
 Java TBD
 	SpringBoot
 	RestTemplate
